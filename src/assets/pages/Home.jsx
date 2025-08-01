@@ -26,7 +26,7 @@ import { fetchVerseOfTheDay } from '../api/verseApi';
             <div className="text-center lg:text-left">
               <div className="flex items-center justify-center lg:justify-start space-x-4 mb-6">
                 <img 
-                  src="/images/Church logo.png" 
+                  src="/logos/Church logo.png" 
                   alt="Chiraa SDA Church Logo" 
                   className="h-16 w-16 rounded-full shadow-lg"
                 />
@@ -64,7 +64,7 @@ import { fetchVerseOfTheDay } from '../api/verseApi';
             <div className="hidden lg:block">
               <div className="relative">
                 <img 
-                  src="/src/assets/images/1.jpg" 
+                  src="/images/1.jpg" 
                   alt="Chiraa SDA Church" 
                   className="rounded-lg shadow-2xl w-full h-96 object-cover"
                 />
@@ -104,7 +104,7 @@ import { fetchVerseOfTheDay } from '../api/verseApi';
             <div className="order-1 lg:order-2">
               <div className="relative">
                 <img 
-                  src="/src/assets/images/ps. kyeremeh_District_Pastor.jpg" 
+                  src="/images/ps. kyeremeh_District_Pastor.jpg" 
                   alt="Pastor Kyeremeh - District Pastor" 
                   className="rounded-lg shadow-xl w-full h-80 object-cover"
                 />
@@ -131,7 +131,7 @@ import { fetchVerseOfTheDay } from '../api/verseApi';
             <div className="bg-church-beige rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
               <div className="h-48 overflow-hidden">
                 <img 
-                  src="/src/assets/images/upcoming/Camp Meetig 2025 .jpg" 
+                  src="/images/upcoming/Camp Meetig 2025 .jpg" 
                   alt="Camp Meeting 2025" 
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                 />
@@ -162,7 +162,7 @@ import { fetchVerseOfTheDay } from '../api/verseApi';
             <div className="bg-church-beige rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
               <div className="h-48 overflow-hidden">
                 <img 
-                  src="/src/assets/images/upcoming/PF Homecoming 25.jpg" 
+                  src="/images/upcoming/PF Homecoming 25.jpg" 
                   alt="Pathfinder Homecoming 2025" 
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                 />
@@ -193,7 +193,7 @@ import { fetchVerseOfTheDay } from '../api/verseApi';
             <div className="bg-church-beige rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
               <div className="h-48 overflow-hidden">
                 <img 
-                  src="/src/assets/images/anniversary_2.jpg" 
+                  src="/images/anniversary_2.jpg" 
                   alt="Sabbath Worship Service" 
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                 />
@@ -439,12 +439,12 @@ import { fetchVerseOfTheDay } from '../api/verseApi';
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-8">
             {/* Gallery images */}
-            {[{ src: "/src/assets/images/district_games.jpg", alt: "District Games" },
-              { src: "/src/assets/images/anniversary committee.jpg", alt: "Anniversary Committee" },
-              { src: "/src/assets/images/play_grounds.jpg", alt: "District Games Playground" },
-              { src: "/src/assets/images/women_ministries.jpg", alt: "Women Ministries" },
-              { src: "/src/assets/images/anniversary_2.jpg", alt: "Anniversary Celebration" },
-              { src: "/src/assets/images/1.jpg", alt: "Anniversary Celebration" },
+            {[{ src: "/images/district_games.jpg", alt: "District Games" },
+              { src: "/images/anniversary committee.jpg", alt: "Anniversary Committee" },
+              { src: "/images/play_grounds.jpg", alt: "District Games Playground" },
+              { src: "/images/women_ministries.jpg", alt: "Women Ministries" },
+              { src: "/images/anniversary_2.jpg", alt: "Anniversary Celebration" },
+              { src: "/images/1.jpg", alt: "Anniversary Celebration" },
             ].map((img, idx) => (
               <div key={idx} 
                 className="aspect-square bg-church-beige rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer relative group">

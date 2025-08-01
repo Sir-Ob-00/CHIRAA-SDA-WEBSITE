@@ -55,7 +55,7 @@ const Navbar = () => {
           {/* Logo and Church Name */}
           <div className="flex items-center space-x-3">
             <img 
-              src="/images/Church logo white.png" 
+              src="/logos/Church logo white.png" 
               alt="Chiraa SDA Church Logo" 
               className="h-10 w-10 rounded-full"
             />
