@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {  
+            /* Fonts family */
+        --font-title: 'Playfair Display', 'serif';
+        --font-subtitle: 'Inter', 'Nunito', 'sans-serif';
+        --font-body: 'Inter', 'Nunito', 'sans-serif';
+        --font-quote: 'EB Garamond', 'serif';  
+        --font-button: 'Poppins', 'sans-serif';
+        --font-sans: 'Inter', 'Nunito', 'system-ui', 'sans-serif';
+        --font-serif: 'Playfair Display', 'EB Garamond', 'Georgia', 'serif';
+
+
+          /* Colors */
+          --color-church-blue: #1e3a8a;/* Deep blue for header/navbar */
+          --color-church-blue-light: #3b82f6; /* Lighter blue for accents */
+          --color-church-blue-dark: #1e40af; /* Darker blue variant */
+    
+          --color-church-gold: #fbbf24;/*Gold for button hovers */
+          --color-church-gold-light: #fcd34d; /* Light gold */
+          --color-church-gold-dark: #f59e0b; /* Dark gold */
+
+          --color-church-beige: #f5f5dc;/* Beige for cards/sections */
+          --color-church-beige-light: #faf8f3; /* Light beige */
+          --color-church-beige-dark: #e8e2d4; /* Darker beige */
+
+          --color-church-olive: #6b7280;/* Olive green for footer */
+          --color-church-olive-light: #9ca3af; /* Light olive */
+          --color-church-olive-dark: #4b5563; /* Dark olive */
+
+          --color-church-text-light: #f9fafb; /* White text */
+          --color-church-text-dark: #1f2937; /* Dark text */
+
+
+           /* ... */
+        }
